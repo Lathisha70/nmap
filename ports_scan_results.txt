@@ -1,0 +1,27 @@
+# Nmap 7.95 scan initiated Sat May 31 12:03:20 2025 as: nmap -oN C:\\Users\\LENOVO\\Desktop/ports_scan_results.txt -oX C:\\Users\\LENOVO\\AppData\\Local\\Temp\\zenmap-w71eh4a1.xml 192.168.56.1
+Nmap scan report for 192.168.56.1
+Host is up (0.00016s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+8090/tcp open  opsmessaging
+
+# Nmap done at Sat May 31 12:03:21 2025 -- 1 IP address (1 host up) scanned in 0.22 seconds
+
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-31 12:04 India Standard Time
+Nmap scan report for 192.168.56.1
+Host is up (0.00099s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+8090/tcp open  tcpwrapped
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 7.09 seconds
+
